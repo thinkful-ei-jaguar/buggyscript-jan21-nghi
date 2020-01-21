@@ -1,0 +1,20 @@
+{
+  "name": "buggyscript-jan21-nghi",
+  "version": "1.0.0",
+  "main": "buggy-script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-jaguar/buggyscript-jan21-nghi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-jaguar/buggyscript-jan21-nghi/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-jaguar/buggyscript-jan21-nghi#readme",
+  "description": ""
+}
