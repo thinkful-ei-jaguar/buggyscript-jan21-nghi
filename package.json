@@ -1,7 +1,7 @@
 {
   "name": "buggyscript-jan21-nghi",
   "version": "1.0.0",
-  "main": "buggy-script.js",
+  "main": "./intro_to_node/buggy-script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

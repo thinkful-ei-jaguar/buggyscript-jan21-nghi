@@ -4,7 +4,6 @@ const path = require('path');
 const source = process.argv[2];
 const target = process.argv[3];
 
-
 // read contents of source
 const contentsOfSource = fs.readFileSync(source, 'utf-8');
 
@@ -22,6 +21,7 @@ linesInSource.forEach(line => {
   const [ filename, ...contentArr ] = line.split(' ');
   // construct the full path for the file to create
   const newFilePath = path.join(__dirname, target, filename);
+
   // write the file and it's contents
   fs.writeFileSync(
     newFilePath,
